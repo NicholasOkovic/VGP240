@@ -1,5 +1,5 @@
 #include "CommandDictionary.h"
-
+#include "CmdSetColor.h"
 #include "CmdDrawPixel.h"
 #include "CmdSetResolution.h"
 #include "CmdVarFloat.h"
@@ -22,6 +22,7 @@ CommandDictionary::CommandDictionary()
 
 	// Rasterization commands
 	RegisterCommand<CmdDrawPixel>();
+	RegisterCommand<CmdSetColor>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()
