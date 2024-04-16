@@ -2,3 +2,4 @@ D:\PeterStuff\X\Main\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\Direc
 D:\PeterStuff\X\Main\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.pdb
 C:\Users\lcv2242596\Downloads\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
 C:\Users\lcv2242596\source\repos\VGP240\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
