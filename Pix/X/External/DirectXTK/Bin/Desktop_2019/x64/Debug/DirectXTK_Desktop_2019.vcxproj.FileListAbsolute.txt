@@ -3,3 +3,4 @@ D:\PeterStuff\X\Main\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.p
 C:\Users\lcv2242596\Downloads\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 C:\Users\lcv2242596\source\repos\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+C:\Users\LCv2242596\Documents\GitHub\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
