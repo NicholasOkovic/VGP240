@@ -7,6 +7,8 @@
 class MathHelper
 {
 public:
+	static bool CheckEqual(float a, float b);
+
 	static float MagnitudeSquared(const Vector2& v);
 	static float MagnitudeSquared(const Vector3& v);
 	static float Magnitude(const Vector2& v);
