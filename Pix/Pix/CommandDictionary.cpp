@@ -9,6 +9,11 @@
 #include "CmdAddVertex.h"
 #include "CmdSetFillMode.h"
 
+#include "CmdShowViewPort.h"
+#include "CmdSetViewPort.h"
+#include "CmdSetClipping.h"
+
+
 CommandDictionary* CommandDictionary::Get()
 {
 	static CommandDictionary sInstance;
@@ -33,6 +38,11 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdAddVertex>();
 	RegisterCommand<CmdEndDraw>();
 	RegisterCommand<CmdSetFillMode>();
+
+	//setting command II
+	RegisterCommand<CmdSetViewPort>();
+	RegisterCommand<CmdShowViewPort>();
+	RegisterCommand<CmdSetClipping>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()

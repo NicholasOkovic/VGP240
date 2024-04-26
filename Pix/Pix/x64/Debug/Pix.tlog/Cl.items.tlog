@@ -1,10 +1,14 @@
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Clipper.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Clipper.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdAddVertex.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdAddVertex.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdBeginDraw.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdBeginDraw.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdDrawPixel.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdDrawPixel.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdEndDraw.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdEndDraw.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetClipping.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetClipping.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetColor.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetColor.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetFillMode.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetFillMode.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetResolution.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetResolution.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetViewPort.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetViewPort.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdShowViewPort.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdShowViewPort.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdVarFloat.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdVarFloat.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CommandDictionary.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CommandDictionary.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Graphics.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Graphics.obj
