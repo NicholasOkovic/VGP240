@@ -1,4 +1,15 @@
 ﻿  Clipper.cpp
+  CmdAddVertex.cpp
+  CmdBeginDraw.cpp
+  CmdDrawPixel.cpp
+  CmdEndDraw.cpp
+  CmdSetClipping.cpp
+  CmdSetColor.cpp
+  CmdSetFillMode.cpp
+  Graphics.cpp
+  PrimitiveManager.cpp
+  Rasterizer.cpp
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Rasterizer.cpp(52,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Clipper.cpp(61): warning C4715: 'IsInFront': not all control paths return a value
-     Creating library C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.lib and object C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exp
   Pix.vcxproj -> C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exe
