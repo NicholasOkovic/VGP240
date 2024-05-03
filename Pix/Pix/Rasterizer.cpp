@@ -137,13 +137,13 @@ void Rasterizer::DrawFilledTriangle(const Vertex& v0, const Vertex& v1, const Ve
 	}
 	else
 	{
-		float t = (v1.pos.y - v0.pos.y);
+		float t = (v1.pos.y - v0.pos.y) / dy;
 		Vertex splitVertex = LerpVertex(v0, v2, t);
 
 		//Top fill
 		DrawFilledTriangle(v0, v1, splitVertex);
 		//botom fill
-		DrawFilledTriangle(v0, splitVertex, v1);
+		DrawFilledTriangle(v1, splitVertex, v2);
 	}
 
 
