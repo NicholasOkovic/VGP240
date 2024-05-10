@@ -1,8 +1,14 @@
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Camera.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Camera.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Clipper.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Clipper.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdAddVertex.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdAddVertex.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdBeginDraw.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdBeginDraw.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdDrawPixel.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdDrawPixel.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdEndDraw.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdEndDraw.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraDirection.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraDirection.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraFar.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraFar.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraFov.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraFov.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraNear.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraNear.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraPosition.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraPosition.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetClipping.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetClipping.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetColor.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetColor.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetFillMode.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetFillMode.obj

@@ -14,6 +14,14 @@
 #include "CmdSetClipping.h"
 
 
+#include "CmdSetCameraDirection.h";
+#include "CmdSetCameraFov.h";
+#include "CmdSetCameraNear.h";
+#include "CmdSetCameraFar.h";
+#include "CmdSetCameraPosition.h";
+
+
+
 CommandDictionary* CommandDictionary::Get()
 {
 	static CommandDictionary sInstance;
@@ -43,6 +51,14 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetViewPort>();
 	RegisterCommand<CmdShowViewPort>();
 	RegisterCommand<CmdSetClipping>();
+
+	//camera settings
+	RegisterCommand<CmdSetCameraDirection>();
+	RegisterCommand<CmdSetCameraFov>();
+	RegisterCommand<CmdSetCameraPosition>();
+	RegisterCommand<CmdSetCameraNear>();
+	RegisterCommand<CmdSetCameraFar>();
+
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()

@@ -1,3 +1,6 @@
+#include "Camera.h"
+#include "Camera.h"
+#include "Camera.h"
 //====================================================================================================
 // Filename:	Camera.cpp
 // Created by:	Peter Chan
@@ -42,6 +45,7 @@ Camera::~Camera()
 		sCamera = nullptr;
 	}
 }
+
 
 void Camera::SetPosition(const Math::Vector3& position)
 {
@@ -151,6 +155,8 @@ Math::Matrix4 Camera::GetProjectionMatrix() const
 		0.0f, 0.0f, -n * d, 0.0f
 	);
 }
+
+
 
 Math::Ray Camera::ScreenPointToRay(int screenX, int screenY, uint32_t screenWidth, uint32_t screenHeight) const
 {
