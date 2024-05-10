@@ -20,7 +20,7 @@ public:
 	static Vector3 Cross(const Vector3& a, const Vector3& b);
 	static float Lerp(float a, float b, float t);
 
-
+	static void FlattenVector(Vector3& v);
 	static Vector3 TransformCoord(const Vector3& v, const Matrix4& m);
 	static Vector3 TransformNormal(const Vector3& n, const Matrix4& m);
 	static float Determinant(const Matrix4& m);

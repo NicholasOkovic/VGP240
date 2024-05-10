@@ -1,8 +1,1 @@
-﻿  MathHelper.cpp
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.cpp(21,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.cpp(26,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  PrimitiveManager.cpp
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp(14,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Generating Code...
-  Pix.vcxproj -> C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exe
+﻿  Pix.vcxproj -> C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exe

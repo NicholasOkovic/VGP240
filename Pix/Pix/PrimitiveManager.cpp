@@ -2,6 +2,7 @@
 #include "Rasterizer.h"
 #include "Clipper.h"
 #include "Camera.h"
+#include "MatrixStack.h"
 
 
 extern float gResolutionX;
@@ -62,7 +63,7 @@ bool PrimitiveManager::EndDraw()
 
 	if (mApplyTransform)
 	{
-		Matrix4 matWorld = Matrix4::Identity();
+		Matrix4 matWorld = MatrixStack::Get()->GetTransform();
 		Matrix4 matView = Camera::Get()->GetViewMatrix();
 		Matrix4 matProj= Camera::Get()->GetProjectionMatrix();
 		Matrix4 matScreen = GetScreenMatrix();				
@@ -72,11 +73,9 @@ bool PrimitiveManager::EndDraw()
 		for (size_t i = 0; i < mVertexBuffer.size(); i++)
 		{
 			Vector3 finalPos = MathHelper::TransformCoord(mVertexBuffer[i].pos, MatFinal);
+			MathHelper::FlattenVector(finalPos);
 			mVertexBuffer[i].pos = finalPos;
 		}
-
-
-		return false;
 
 	}
 	switch (mtopology)

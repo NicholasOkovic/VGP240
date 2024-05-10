@@ -20,6 +20,15 @@
 #include "CmdSetCameraFar.h";
 #include "CmdSetCameraPosition.h";
 
+#include "CmdPushRotationX.h"
+#include "CmdPushRotationY.h"
+#include "CmdPushRotationZ.h"
+#include "CmdPushScaling.h"
+#include "CmdPushTranslation.h"
+#include "CmdPopMatrix.h"
+
+
+
 
 
 CommandDictionary* CommandDictionary::Get()
@@ -58,6 +67,15 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetCameraPosition>();
 	RegisterCommand<CmdSetCameraNear>();
 	RegisterCommand<CmdSetCameraFar>();
+
+	RegisterCommand<CmdPushRotationX>();
+	RegisterCommand<CmdPushRotationY>();
+	RegisterCommand<CmdPushRotationZ>();
+	RegisterCommand<CmdPushScaling>();
+	RegisterCommand<CmdPushTranslation>();
+	RegisterCommand<CmdPopMatrix>();
+
+
 
 }
 

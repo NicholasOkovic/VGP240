@@ -4,6 +4,12 @@ C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdAddVertex.cpp;C:\Users\Lc
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdBeginDraw.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdBeginDraw.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdDrawPixel.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdDrawPixel.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdEndDraw.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdEndDraw.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPopMatrix.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPopMatrix.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushRotationX.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushRotationX.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushRotationY.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushRotationY.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushRotationZ.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushRotationZ.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushScaling.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushScaling.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushTranslation.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushTranslation.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraDirection.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraDirection.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraFar.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraFar.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraFov.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraFov.obj
@@ -19,6 +25,7 @@ C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdVarFloat.cpp;C:\Users\Lcv
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CommandDictionary.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CommandDictionary.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Graphics.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Graphics.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\MathHelper.obj
+C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MatrixStack.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\MatrixStack.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PixEditor.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\PixEditor.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\PrimitiveManager.obj
 C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Rasterizer.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Rasterizer.obj
