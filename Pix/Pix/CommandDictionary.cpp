@@ -46,6 +46,12 @@ CommandDictionary::CommandDictionary()
 
 	// Variable commands
 	RegisterCommand<CmdVarFloat>();
+	RegisterCommand<CmdPushRotationX>();
+	RegisterCommand<CmdPushRotationY>();
+	RegisterCommand<CmdPushRotationZ>();
+	RegisterCommand<CmdPushScaling>();
+	RegisterCommand<CmdPushTranslation>();
+	RegisterCommand<CmdPopMatrix>();
 
 	// Rasterization commands
 	RegisterCommand<CmdDrawPixel>();
@@ -68,12 +74,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetCameraNear>();
 	RegisterCommand<CmdSetCameraFar>();
 
-	RegisterCommand<CmdPushRotationX>();
-	RegisterCommand<CmdPushRotationY>();
-	RegisterCommand<CmdPushRotationZ>();
-	RegisterCommand<CmdPushScaling>();
-	RegisterCommand<CmdPushTranslation>();
-	RegisterCommand<CmdPopMatrix>();
+
 
 
 

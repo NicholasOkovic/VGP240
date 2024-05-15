@@ -1,36 +1,36 @@
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Camera.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Camera.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Clipper.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Clipper.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdAddVertex.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdAddVertex.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdBeginDraw.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdBeginDraw.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdDrawPixel.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdDrawPixel.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdEndDraw.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdEndDraw.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPopMatrix.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPopMatrix.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushRotationX.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushRotationX.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushRotationY.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushRotationY.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushRotationZ.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushRotationZ.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushScaling.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushScaling.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdPushTranslation.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdPushTranslation.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraDirection.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraDirection.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraFar.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraFar.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraFov.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraFov.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraNear.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraNear.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCameraPosition.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetCameraPosition.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetClipping.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetClipping.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetColor.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetColor.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetFillMode.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetFillMode.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetResolution.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetResolution.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetViewPort.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdSetViewPort.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdShowViewPort.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdShowViewPort.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdVarFloat.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CmdVarFloat.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CommandDictionary.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\CommandDictionary.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Graphics.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Graphics.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\MathHelper.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MatrixStack.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\MatrixStack.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PixEditor.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\PixEditor.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\PrimitiveManager.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Rasterizer.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Rasterizer.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\ScriptParser.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\ScriptParser.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\TextEditor.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\TextEditor.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\VariableCache.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\VariableCache.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\Viewport.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\Viewport.obj
-C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\WinMain.cpp;C:\Users\Lcv2242596\Documents\GitHub\VGP240\Pix\Pix\x64\Debug\WinMain.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\Camera.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\Camera.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\Clipper.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\Clipper.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdAddVertex.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdAddVertex.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdBeginDraw.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdBeginDraw.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdDrawPixel.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdDrawPixel.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdEndDraw.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdEndDraw.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPopMatrix.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdPopMatrix.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushRotationX.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdPushRotationX.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushRotationY.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdPushRotationY.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushRotationZ.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdPushRotationZ.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushScaling.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdPushScaling.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushTranslation.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdPushTranslation.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetCameraDirection.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetCameraDirection.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetCameraFar.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetCameraFar.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetCameraFov.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetCameraFov.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetCameraNear.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetCameraNear.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetCameraPosition.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetCameraPosition.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetClipping.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetClipping.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetColor.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetColor.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetFillMode.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetFillMode.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetResolution.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetResolution.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetViewPort.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetViewPort.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdShowViewPort.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdShowViewPort.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarFloat.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdVarFloat.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CommandDictionary.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\Graphics.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\Graphics.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\MathHelper.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\MathHelper.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\MatrixStack.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\MatrixStack.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\PixEditor.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\PixEditor.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\PrimitiveManager.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\PrimitiveManager.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\Rasterizer.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\Rasterizer.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\ScriptParser.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\ScriptParser.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\TextEditor.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\TextEditor.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\VariableCache.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\Viewport.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\Viewport.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\WinMain.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\WinMain.obj

@@ -28,8 +28,7 @@ private:
 	Vector3 mDirection;
 	float mNearPlane;
 	float mFarPlane;
-
-	float mFOV;///
+	float mFOV;
 };
 
 

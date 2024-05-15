@@ -14,7 +14,7 @@ struct Vertex
 inline static Vector3 LerpPosition(const Vector3& a, const Vector3& b, float t)
 {
 	Vector3 pos;
-	pos.x = floorf(MathHelper::Lerp(a.x, b.x, t)+0.5f);
+	pos.x = floorf(MathHelper::Lerp(a.x, b.x, t) + 0.5f);
 	pos.y = floorf(MathHelper::Lerp(a.y, b.y, t) + 0.5f);
 	pos.z = floorf(MathHelper::Lerp(a.z, b.z, t) + 0.5f);
 	return pos;

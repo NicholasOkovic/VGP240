@@ -40,6 +40,7 @@ PrimitiveManager* PrimitiveManager::Get()
 bool PrimitiveManager::BeginDraw(Topology topology, bool applyTransform)
 {
 	mtopology = topology;
+	mApplyTransform = applyTransform;
 	mDrawBegin = true;
 	mVertexBuffer.clear();
 	return true;
@@ -57,8 +58,7 @@ bool PrimitiveManager::EndDraw()
 {
 	if (!mDrawBegin)
 	{
-	return false;
-
+		return false;
 	}
 
 	if (mApplyTransform)

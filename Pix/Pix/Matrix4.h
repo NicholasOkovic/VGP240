@@ -86,8 +86,9 @@ struct Matrix4
 		return Matrix4(
 			1.0f, 0.0f, 0.0f, 0.0f,
 			0.0f, c, s, 0.0f,
-			0.0f, -s, c, 0.0f,			///////
-			0.0f, 0.0f, 0.0f, 1.0f);
+			0.0f, -s, c, 0.0f,		
+			0.0f, 0.0f, 0.0f, 1.0f
+		);
 	}
 
 	static Matrix4 RotationY(float rad)
@@ -119,7 +120,7 @@ struct Matrix4
 			s, 0.0f, 0.0f, 0.0f,
 			0.0f,s, 0.0f, 0.0f,
 			0.0f, 0.0f,s, 0.0f,
-			0.0f, 0.0f, 0.0f, s);
+			0.0f, 0.0f, 0.0f, 1.0f);
 	}
 
 

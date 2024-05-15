@@ -13,7 +13,7 @@ public:
 	const char* GetDescription() override
 	{
 		return
-			"CmdPushRotationX(deg)\n"
+			"PopMatrix()\n"
 			"\n"
 			"- push rot into mat stack (x, y).";
 	}

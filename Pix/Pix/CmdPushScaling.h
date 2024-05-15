@@ -14,7 +14,7 @@ public:
 	const char* GetDescription() override
 	{
 		return
-			"DrawPixel(x, y)\n"
+			"DrawScaling(x, y)\n"
 			"\n"
 			"- Draws a single pixel at position (x, y).";
 	}
