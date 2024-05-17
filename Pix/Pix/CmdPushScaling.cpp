@@ -14,7 +14,7 @@ bool CmdPushScaling::Execute(const std::vector<std::string>& params)
 	float y = vc->GetFloat(params[1]);
 	float z = vc->GetFloat(params[2]);
 
-	MatrixStack::Get()->PushScaling({ x,y,x });
+	MatrixStack::Get()->PushScaling({ x,y,z });
 
 	return true;
 }

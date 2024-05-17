@@ -13,7 +13,7 @@ bool CmdSetCameraPosition::Execute(const std::vector<std::string>& params)
 	float y = vc->GetFloat(params[1]);
 	float z = vc->GetFloat(params[2]);
 
-	Camera::Get()->SetPosition({ x,y,x });
+	Camera::Get()->SetPosition({ x,y,z });
 
 	return true;
 }

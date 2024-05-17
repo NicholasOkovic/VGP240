@@ -63,8 +63,8 @@ float MathHelper::Lerp(float a, float b, float t)
 void MathHelper::FlattenVector(Vector3& v)
 {
 	v.x = floor(v.x + 0.5f);
-	v.y = floor(v.x + 0.5f);
-	v.z = floor(v.x + 0.5f);
+	v.y = floor(v.y + 0.5f);
+	v.z = floor(v.z + 0.5f);
 }
 
 Vector3 MathHelper::TransformCoord(const Vector3& v, const Matrix4& m)

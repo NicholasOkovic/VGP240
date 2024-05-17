@@ -14,7 +14,7 @@ bool CmdPushTranslation::Execute(const std::vector<std::string>& params)
 	float y = vc->GetFloat(params[1]);
 	float z = vc->GetFloat(params[2]);
 
-	MatrixStack::Get()->PushTranslation({ x,y,x });
+	MatrixStack::Get()->PushTranslation({ x,y,z });
 
 	return true;
 }

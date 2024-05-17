@@ -4,6 +4,7 @@ SetViewPort(50, 50, 400, 400)
 //SetClipping(true)
 SetCullMode(none)
 //ShowViewPort(true)
+SetFillMode(solid)
 
 float $camX = 0
 float $camY = 0
@@ -43,5 +44,6 @@ Vertex(1, 1, 1, 1, 1, 0)
 Vertex(1, -1, 1, 1, 1, 0)
 
 EndDraw()
+
 
 
