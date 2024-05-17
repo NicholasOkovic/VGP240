@@ -1,7 +1,1 @@
-﻿  MathHelper.cpp
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.cpp(21,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.cpp(26,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.cpp(65,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.cpp(66,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.cpp(67,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  Pix.vcxproj -> C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exe
+﻿  Pix.vcxproj -> C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exe

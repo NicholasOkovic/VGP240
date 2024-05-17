@@ -27,7 +27,8 @@
 #include "CmdPushTranslation.h"
 #include "CmdPopMatrix.h"
 
-
+#include "CmdSetCullMode.h"
+#include "CmdEnableDepth.h"
 
 
 
@@ -62,10 +63,13 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdEndDraw>();
 	RegisterCommand<CmdSetFillMode>();
 
+	RegisterCommand<CmdSetCullMode>();
+
 	//setting command II
 	RegisterCommand<CmdSetViewPort>();
 	RegisterCommand<CmdShowViewPort>();
 	RegisterCommand<CmdSetClipping>();
+	RegisterCommand<CmdEnableDepth>();
 
 	//camera settings
 	RegisterCommand<CmdSetCameraDirection>();
