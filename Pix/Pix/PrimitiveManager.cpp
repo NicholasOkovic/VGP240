@@ -3,6 +3,7 @@
 #include "Clipper.h"
 #include "Camera.h"
 #include "MatrixStack.h"
+#include "LightManager.h"
 
 
 extern float gResolutionX;
@@ -126,6 +127,7 @@ bool PrimitiveManager::EndDraw()
 		Matrix4 matProj = Camera::Get()->GetProjectionMatrix();
 		Matrix4 matScreen = GetScreenMatrix();
 		Matrix4 MatNDC = matWorld * matView * matProj;
+		LightManager* lm = LightManager::Get();
 
 		for (size_t i = 2; i < mVertexBuffer.size(); i += 3)
 		{
@@ -133,19 +135,34 @@ bool PrimitiveManager::EndDraw()
 
 			if (mApplyTransform)
 			{
-
+				//move the position into world space
+				for (size_t t = 0; t < triangle.size(); t++)
+				{
+					Vector3 worldPos = MathHelper::TransformCoord(triangle[t].pos, matWorld);
+					triangle[t].pos = worldPos;
+				}
+				//apply world spacew lights to verts
+				Vector3 dirAB = triangle[1].pos - triangle[0].pos;
+				Vector3 dirAC = triangle[2].pos - triangle[0].pos;
+				Vector3 faceNormal = MathHelper::Normalize(MathHelper::Cross(dirAB, dirAC));
 
 				for (size_t t = 0; t < triangle.size(); t++)
 				{
-					Vector3 ndcPos = MathHelper::TransformCoord(triangle[t].pos, MatNDC);	/////
-					triangle[t].pos = ndcPos;
+					triangle[t].color += lm->ComputeLightColor(triangle[t].pos, faceNormal);
 				}
 
+				//move the positions to ndc space
+				for (size_t t = 0; t < triangle.size(); t++)
+				{
+					Vector3 ndcPos = MathHelper::TransformCoord(triangle[t].pos, MatNDC);	
+					triangle[t].pos = ndcPos;
+				}
+				//do culling test
 				if (CullTriangle(mCullMode, triangle))
 				{
 					continue;
 				}
-
+				//move pos to screen space
 				for (size_t t = 0; t < triangle.size(); t++)
 				{
 					Vector3 screenPos = MathHelper::TransformCoord(triangle[t].pos, matScreen);
