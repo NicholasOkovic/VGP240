@@ -88,3 +88,47 @@ public:
 	bool Execute(const std::vector<std::string>& params) override;
 };
 
+class CmdAddPointLight : public Command
+{
+public:
+	const char* GetName() override
+	{
+		return "AddPointLight";
+	}
+
+	const char* GetDescription() override
+	{
+		return
+			"Add point light(x,y, z <const> <linear> <quadratic>)\n"
+			"AddVertex(x,y,z)\n"
+			"AddVertex(x,y,r,g,b)\n"
+			"AddVertex(x,y,z,r,g,b)\n"
+			"\n"
+			"- adds vertex to the primitives manager before render";
+	}
+
+	bool Execute(const std::vector<std::string>& params) override;
+};
+
+
+class CmdAddSpotLight : public Command
+{
+public:
+	const char* GetName() override
+	{
+		return "AddSpotLight";
+	}
+
+	const char* GetDescription() override
+	{
+		return
+			"Add spot light(x,y, z, x, y, z <const> <linear> <quadratic>)\n"
+			"AddVertex(x,y,z)\n"
+			"AddVertex(x,y,r,g,b)\n"
+			"AddVertex(x,y,z,r,g,b)\n"
+			"\n"
+			"- adds vertex to the primitives manager before render";
+	}
+
+	bool Execute(const std::vector<std::string>& params) override;
+};

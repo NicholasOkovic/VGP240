@@ -1,1 +1,49 @@
-﻿  Pix.vcxproj -> D:\LaSalleProjects\3D graphics and application\VGP240\Pix\x64\Debug\Pix.exe
+﻿  CmdLights.cpp
+  CommandDictionary.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(17,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(18,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(19,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(21,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  LightManager.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(509,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'LightManager.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(509,24): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'LightManager.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(510,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'LightManager.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(510,24): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'LightManager.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\LightTypes.h(50,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'LightManager.cpp')
+  
+  LightTypes.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(509,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'LightTypes.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(509,24): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'LightTypes.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(510,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'LightTypes.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(510,24): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'LightTypes.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\LightTypes.h(50,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'LightTypes.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\LightTypes.cpp(19,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\LightTypes.cpp(50,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\LightTypes.cpp(87,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\LightTypes.cpp(99,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\LightTypes.cpp(132,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  PrimitiveManager.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\PrimitiveManager.cpp(15,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\PrimitiveManager.cpp(16,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Pix.vcxproj -> D:\LaSalleProjects\3D graphics and application\VGP240\Pix\x64\Debug\Pix.exe
