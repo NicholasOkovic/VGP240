@@ -9,11 +9,12 @@ public:
 
 	const std::string& GetFileName() const;
 	const Vertex& GetVertex(uint32_t index) const;
-	uint32_t GetVertexCount();
+	uint32_t GetVertexCount() const;
 
 
 private:
-
+	std::string mFileName;
+	std::vector<Vertex> mVertices;
 };
 
 

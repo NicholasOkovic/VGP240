@@ -14,15 +14,15 @@ void ModelManager::Clear()
 const Model* ModelManager::GetModel(const std::string& fileName)
 {
 
-	auto iter = std::find_if(mmodels.begin(), mmodels.end(), [fileName](auto& model)
+	auto iter = std::find_if(mModels.begin(), mModels.end(), [fileName](auto& model)
 		{
 			return model->GetFileName() == fileName;
 		});
-	if (iter != mmodels.end())
+	if (iter != mModels.end())
 	{
 		return iter->get();
 	}
-	auto& model = mmodel.emplace_back(std::make_unique<Model>());
-	model->load
-	return nullptr;
+	auto& model = mModels.emplace_back(std::make_unique<Model>());
+	model->Load(fileName);
+	return model.get();
 }

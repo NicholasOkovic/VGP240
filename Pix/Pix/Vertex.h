@@ -16,8 +16,8 @@ struct Vertex
 inline static Vector3 LerpPosition(const Vector3& a, const Vector3& b, float t, bool toPixel = true)
 {
 	Vector3 pos;
-	pos.x = MathHelper::Lerp(a.x, b.x, t));
-	pos.y = MathHelper::Lerp(a.y, b.y, t));
+	pos.x = MathHelper::Lerp(a.x, b.x, t);
+	pos.y = MathHelper::Lerp(a.y, b.y, t);
 	pos.z = MathHelper::Lerp(a.z, b.z, t);
 	if (toPixel)
 	{
@@ -50,13 +50,11 @@ inline static Vertex LerpVertex(const Vertex& a, const Vertex& b, float t, bool 
 {
 	Vertex vertex;
 	vertex.pos = LerpPosition(a.pos, b.pos, t);
-	vertex.color = LerpPosition(a.color, b.color, t);
 	vertex.color = LerpColor(a.color, b.color, t);
 	if (lerpNorm)
 	{
-		vertex.posWorld = LerpPosition(a.posWorld)
-		vertex.norm = LerpNormal(a.norm, b.norm, t);			////////
+		vertex.posWorld = LerpPosition(a.posWorld, b.posWorld, t, false);
+		vertex.norm = LerpNormal(a.norm, b.norm, t);			
 	}
-
 	return vertex;
 }

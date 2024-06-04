@@ -15,7 +15,7 @@ void Model::Load(const std::string& fileName)
 	{
 		char buffer[128];
 		sprintf_s(buffer, "Cannot open model file %s", fileName.c_str());
-		MessageBoxA(nullptr, buffer, "mdel error", MB_OK | MB_ICONEXCLAMATION);
+		MessageBoxA(nullptr, buffer, "Model Error", MB_OK | MB_ICONEXCLAMATION);
 		return;
 	}
 
@@ -56,7 +56,7 @@ void Model::Load(const std::string& fileName)
 	mVertices.resize(positionIndices.size());
 	normals.resize(positions.size());
 	normalsCount.resize(positions.size());
-	for (size_t i = 2; i < positionIndices.size(); i++)
+	for (size_t i = 2; i < positionIndices.size(); i+= 3)
 	{
 		uint32_t index0 = positionIndices[i - 2] - 1;
 		uint32_t index1 = positionIndices[i - 1] - 1;
@@ -91,16 +91,16 @@ void Model::Load(const std::string& fileName)
 	}
 	for (size_t i = 0; i < positionIndices.size(); i++)
 	{
-		mvertices[i].pos = positions[positionIndices[i] - 1];
-		mvertices[i].norm = normals[positionIndices[i] - 1];
-		mvertices[i].color = X::Colors::White;
+		mVertices[i].pos = positions[positionIndices[i] - 1];
+		mVertices[i].norm = normals[positionIndices[i] - 1];
+		mVertices[i].color = X::Colors::White;
 	}
 
 }
 
 const std::string& Model::GetFileName() const
 {
-	return mFileName();
+	return mFileName;
 }
 
 const Vertex& Model::GetVertex(uint32_t index) const
@@ -108,7 +108,7 @@ const Vertex& Model::GetVertex(uint32_t index) const
 	return mVertices[index];
 }
 
-uint32_t Model::GetVertexCount()
+uint32_t Model::GetVertexCount() const
 {
 	return mVertices.size();
 }

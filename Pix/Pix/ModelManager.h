@@ -12,6 +12,5 @@ public:
 	const Model* GetModel(const std::string& fileName);
 
 private:
-	std::vector<std_
-
+	std::vector<std::unique_ptr<Model>> mModels;
 };

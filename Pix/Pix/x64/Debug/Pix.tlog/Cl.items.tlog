@@ -7,6 +7,7 @@ D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdEnableDepth.cpp
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdEndDraw.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdEndDraw.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdLights.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdLights.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdMaterial.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdMaterial.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdModel.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdModel.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPopMatrix.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdPopMatrix.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushRotationX.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdPushRotationX.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushRotationY.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdPushRotationY.obj
@@ -23,6 +24,7 @@ D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetColor.cpp;D:
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetCullMode.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetCullMode.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetFillMode.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetFillMode.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetResolution.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetResolution.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetShadeMode.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetShadeMode.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetViewPort.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdSetViewPort.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdShowViewPort.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdShowViewPort.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarFloat.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\CmdVarFloat.obj
@@ -34,6 +36,8 @@ D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\LightTypes.cpp;D:\
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\MaterialManager.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\MaterialManager.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\MathHelper.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\MathHelper.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\MatrixStack.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\MatrixStack.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\Model.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\Model.obj
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\ModelManager.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\ModelManager.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\PixEditor.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\PixEditor.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\PrimitiveManager.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\PrimitiveManager.obj
 D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\Rasterizer.cpp;D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\x64\Debug\Rasterizer.obj

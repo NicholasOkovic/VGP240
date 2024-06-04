@@ -32,7 +32,7 @@ class SpotLight : public Light
 public:
 	virtual X::Color ComputeLightColor(const Vector3& position, const Vector3& normal) override;
 
-	void SetPosition(const Vector3& direction);
+	void SetPosition(const Vector3& position);
 	void SetDirection(const Vector3& direction);
 	void SetAttenuation(float constant, float linear, float quadratic);
 	void SetAngle(float angle);

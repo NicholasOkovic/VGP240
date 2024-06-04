@@ -48,7 +48,6 @@ X::Color PointLight::ComputeLightColor(const Vector3& position, const Vector3& n
 	Vector3 dirToEye = MathHelper::Normalize(camera->GetPosiiton() - position);
 	Vector3 half = MathHelper::Normalize(dirToLight + dirToEye);
 	float fallOff = pow(MathHelper::Dot(half, normal), 10.0f) * mm->GetMaterialShininess();
-
 	X::Color colorSpecular = mSpecular * X::Math::Max(fallOff, 0.0f) * mm->GetMaterialSpecular()* iL;
 
 	return colorAmbient + colorDiffuse + colorSpecular;
@@ -84,7 +83,7 @@ X::Color SpotLight::ComputeLightColor(const Vector3& position, const Vector3& no
 
 	if (dirDot < mCosAngle)
 	{
-		return 0.0f;
+		return colorAmbient;
 	}
 	float spot = pow(dirDot, mDecay);
 
@@ -98,8 +97,7 @@ X::Color SpotLight::ComputeLightColor(const Vector3& position, const Vector3& no
 
 	Vector3 dirToEye = MathHelper::Normalize(camera->GetPosiiton() - position);
 	Vector3 half = MathHelper::Normalize(dirToLight + dirToEye);
-	float fallOff = pow(MathHelper::Dot(half, normal), 10.0f) * mm->GetMaterialShininess();
-
+	float fallOff = pow(MathHelper::Dot(half, normal), mm->GetMaterialShininess());
 	X::Color colorSpecular = mSpecular * X::Math::Max(fallOff, 0.0f) * mm->GetMaterialSpecular() * iL;
 
 	return colorAmbient + colorDiffuse + colorSpecular;
@@ -112,7 +110,7 @@ X::Color SpotLight::ComputeLightColor(const Vector3& position, const Vector3& no
 	return X::Color();
 }
 
-void SpotLight::SetPosition(const Vector3& direction)
+void SpotLight::SetPosition(const Vector3& position)
 {
 	mPosition = mPosition;
 }

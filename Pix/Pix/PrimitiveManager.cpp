@@ -140,6 +140,7 @@ bool PrimitiveManager::EndDraw()
 				{
 					Vector3 worldPos = MathHelper::TransformCoord(triangle[t].pos, matWorld);
 					triangle[t].pos = worldPos;
+					triangle[t].posWorld = worldPos;
 				}
 				if (MathHelper::CheckEqual(MathHelper::MagnitudeSquared(triangle[0].norm), 0.0f))
 				{
@@ -153,7 +154,7 @@ bool PrimitiveManager::EndDraw()
 					}
 					
 				}
-				if (Rasterizer::Get()->GetShadeMode() != ShadeMode::Flat || Rasterizer::Get()->GetShadeMode() != ShadeMode::Gouraud)
+				if (Rasterizer::Get()->GetShadeMode() == ShadeMode::Flat || Rasterizer::Get()->GetShadeMode() == ShadeMode::Gouraud)
 				{
 					for (size_t t = 0; t < triangle.size(); t++)
 					{

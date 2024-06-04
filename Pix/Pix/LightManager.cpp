@@ -38,7 +38,6 @@ void LightManager::AddDirectionalLight(const Vector3& direction)
 	light->SetAmbient(mAmbient);
 	light->SetDiffuse(mDiffuse);
 	light->SetSpecular(mSpecular);
-
 	light->SetDirection(direction);
 	mLights.emplace_back(std::move(light));
 

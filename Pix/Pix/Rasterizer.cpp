@@ -25,7 +25,7 @@ void Rasterizer::SetShadeMode(ShadeMode shadeMode)
 
 ShadeMode Rasterizer::GetShadeMode()
 {
-	return ShadeMode();
+	return mShadeMode;
 }
 
 void Rasterizer::DrawPoint(int x, int y)
