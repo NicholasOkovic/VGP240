@@ -24,7 +24,7 @@ X::Color DirectionalLight::ComputeLightColor(const Vector3& position, const Vect
 
 void DirectionalLight::SetDirection(const Vector3& direction)
 {
-	mDirection = direction;
+	mDirection = MathHelper::Normalize(direction);
 }
 
 X::Color PointLight::ComputeLightColor(const Vector3& position, const Vector3& normal)
@@ -35,7 +35,7 @@ X::Color PointLight::ComputeLightColor(const Vector3& position, const Vector3& n
 
 	Vector3 dirToLight = mPosition - position;
 	float distToLight = MathHelper::Magnitude(dirToLight);
-	distToLight /= distToLight;
+	dirToLight /= distToLight;
 
 	float atten = 1.0f / (mAttenConst + (mAttenLinear * distToLight) + (mAttenQuad * distToLight * distToLight));
 	float iL = X::Math::Clamp(atten, 0.0f, 1.0f);
@@ -53,9 +53,9 @@ X::Color PointLight::ComputeLightColor(const Vector3& position, const Vector3& n
 	return colorAmbient + colorDiffuse + colorSpecular;
 }
 
-void PointLight::SetPosition(const Vector3& direction)
+void PointLight::SetPosition(const Vector3& position)
 {
-	mPosition = mPosition;
+	mPosition = position;
 }
 
 void PointLight::SetAttenuation(float constant, float linear, float quadratic)

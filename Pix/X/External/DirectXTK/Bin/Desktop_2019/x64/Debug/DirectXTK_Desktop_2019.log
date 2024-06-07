@@ -1,30 +1,4 @@
-﻿  pch.cpp
-  AlphaTestEffect.cpp
-  BasicEffect.cpp
-  BasicPostProcess.cpp
-  BinaryReader.cpp
-  BufferHelpers.cpp
-  CommonStates.cpp
-  DDSTextureLoader.cpp
-  DGSLEffect.cpp
-  DGSLEffectFactory.cpp
-  DebugEffect.cpp
-  DirectXHelpers.cpp
-  DualPostProcess.cpp
-  DualTextureEffect.cpp
-  EffectCommon.cpp
-  EffectFactory.cpp
-  EnvironmentMapEffect.cpp
-  GamePad.cpp
-  GeometricPrimitive.cpp
-D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\External\DirectXTK\Src\GamePad.cpp(22,21): warning C5264: '`anonymous-namespace'::c_XboxOneThumbDeadZone': 'const' variable is not used
-  (compiling source file '/Src/GamePad.cpp')
-  
-  Geometry.cpp
-  GraphicsMemory.cpp
-  Generating Code...
-  Compiling...
-  Keyboard.cpp
+﻿  Keyboard.cpp
   Model.cpp
   ModelLoadCMO.cpp
   ModelLoadSDKMESH.cpp
@@ -43,4 +17,4 @@ D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\External\DirectXTK\S
   VertexTypes.cpp
   WICTextureLoader.cpp
   Generating Code...
-  DirectXTK_Desktop_2019.vcxproj -> D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+  DirectXTK_Desktop_2019.vcxproj -> C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib

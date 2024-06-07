@@ -11,6 +11,7 @@ public:
 	void Clear();
 	const Model* GetModel(const std::string& fileName);
 
+
 private:
 	std::vector<std::unique_ptr<Model>> mModels;
 };

@@ -31,7 +31,7 @@ public:
 	void AddVertex(const Vertex& vertex);
 	bool EndDraw();
 
-
+	///missing stuff
 
 private:
 	PrimitiveManager();

@@ -36,6 +36,11 @@
 #include "CmdModel.h"
 
 #include "CmdSetShadeMode.h"
+#include "CmdSetCorrectUV.h"
+
+#include "CmdSetTexture.h"
+#include "CmdSetAddressMode.h"
+#include "CmdSetUseFilter.h"
 
 
 CommandDictionary* CommandDictionary::Get()
@@ -60,6 +65,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdPushTranslation>();
 	RegisterCommand<CmdPopMatrix>();
 	RegisterCommand<CmdModel>();
+	RegisterCommand<CmdSetTexture>();
 
 	// Rasterization commands
 	RegisterCommand<CmdDrawPixel>();
@@ -70,6 +76,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdEndDraw>();
 	RegisterCommand<CmdSetFillMode>();
 	RegisterCommand<CmdSetShadeMode>();
+	RegisterCommand<CmdSetCorrectUV>();
 
 	RegisterCommand<CmdSetCullMode>();
 
@@ -101,6 +108,9 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetMaterialEmissive>();
 	RegisterCommand<CmdSetMaterialShininess>();
 
+	// Texturing
+	RegisterCommand<CmdSetAddressMode>();
+	RegisterCommand<CmdSetUseFilter>();
 
 }
 

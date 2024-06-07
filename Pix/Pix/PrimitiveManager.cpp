@@ -58,6 +58,7 @@ PrimitiveManager::~PrimitiveManager()
 void PrimitiveManager::OnNewFrame()
 {
 	mCullMode = CullMode::None;
+	mCorrectUV = false;
 }
 
 void PrimitiveManager::SetCullMode(CullMode mode)
@@ -154,11 +155,24 @@ bool PrimitiveManager::EndDraw()
 					}
 					
 				}
-				if (Rasterizer::Get()->GetShadeMode() == ShadeMode::Flat || Rasterizer::Get()->GetShadeMode() == ShadeMode::Gouraud)
+				if (triangle[0].color.z >= 0.0f)
+				{
+					if (Rasterizer::Get()->GetShadeMode() == ShadeMode::Flat || Rasterizer::Get()->GetShadeMode() == ShadeMode::Gouraud)
+					{
+						for (size_t t = 0; t < triangle.size(); t++)
+						{
+							triangle[t].color *= LightManager::Get()->ComputeLightColor(triangle[t].pos, triangle[t].norm);
+						}
+					}
+				}
+				else if (mCorrectUV)
 				{
 					for (size_t t = 0; t < triangle.size(); t++)
 					{
-						triangle[t].color *= LightManager::Get()->ComputeLightColor(triangle[t].pos, triangle[t].norm);
+						Vector3 viewPos = MathHelper::TransformCoord(triangle);
+						triangle[t].color.x /= viewPos.z;
+						triangle[t].color.y /= viewPos.z;
+						triangle[t].color.w = 1.0f / viewPos.z;
 					}
 				}
 
