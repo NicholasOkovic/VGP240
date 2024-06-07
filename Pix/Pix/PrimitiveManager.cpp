@@ -169,7 +169,7 @@ bool PrimitiveManager::EndDraw()
 				{
 					for (size_t t = 0; t < triangle.size(); t++)
 					{
-						Vector3 viewPos = MathHelper::TransformCoord(triangle);
+						Vector3 viewPos = MathHelper::TransformCoord(triangle[t].pos, matView);
 						triangle[t].color.x /= viewPos.z;
 						triangle[t].color.y /= viewPos.z;
 						triangle[t].color.w = 1.0f / viewPos.z;
@@ -221,4 +221,7 @@ bool PrimitiveManager::EndDraw()
 
 }
 
-
+void PrimitiveManager::SetCorrectUV(bool correctUV)
+{
+	mCorrectUV = correctUV;
+}

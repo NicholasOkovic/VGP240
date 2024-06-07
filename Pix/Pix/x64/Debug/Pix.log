@@ -4,28 +4,11 @@
   CmdModel.cpp
   CmdSetCorrectUV.cpp
   CmdSetCullMode.cpp
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CmdSetCorrectUV.cpp(11,27): error C2039: 'SetCorrectUV': is not a member of 'PrimitiveManager'
-  C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.h(21,7):
-  see declaration of 'PrimitiveManager'
-  
-  CommandDictionary.cpp
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CommandDictionary.cpp(17,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CommandDictionary.cpp(18,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CommandDictionary.cpp(19,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CommandDictionary.cpp(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\CommandDictionary.cpp(21,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   Graphics.cpp
-  ModelManager.cpp
   PrimitiveManager.cpp
 C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp(15,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp(16,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp(61,2): error C2065: 'mCorrectUV': undeclared identifier
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp(168,14): error C2065: 'mCorrectUV': undeclared identifier
-C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp(172,37): error C2660: 'MathHelper::TransformCoord': function does not take 1 arguments
-  C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\MathHelper.h(24,17):
-  see declaration of 'MathHelper::TransformCoord'
-  C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp(172,37):
-  while trying to match the argument list '(std::vector<Vertex,std::allocator<Vertex>>)'
-  
   Texture.cpp
   Generating Code...
+     Creating library C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.lib and object C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exp
+  Pix.vcxproj -> C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exe

@@ -31,7 +31,8 @@ public:
 	void AddVertex(const Vertex& vertex);
 	bool EndDraw();
 
-	///missing stuff
+	void SetCorrectUV(bool correctUV);
+
 
 private:
 	PrimitiveManager();
@@ -42,5 +43,6 @@ private:
 	bool mDrawBegin = false;
 	bool mApplyTransform = false;
 
+	bool mCorrectUV = false;
 };
 
