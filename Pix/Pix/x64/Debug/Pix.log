@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿  CmdAddVertex.cpp
   CmdBeginDraw.cpp
   CmdEndDraw.cpp
@@ -12,3 +13,68 @@ C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\Pix\PrimitiveManager.cpp(16,12):
   Generating Code...
      Creating library C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.lib and object C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exp
   Pix.vcxproj -> C:\Users\lcv2242596\Documents\GitHub\VGP240\Pix\x64\Debug\Pix.exe
+=======
+﻿  CmdLights.cpp
+  CmdMaterial.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(509,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CmdMaterial.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(509,24): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'CmdMaterial.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(510,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'CmdMaterial.cpp')
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\X\Inc\XMath.h(510,24): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'CmdMaterial.cpp')
+  
+  CmdPushRotationX.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushRotationX.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CmdPushRotationY.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushRotationY.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CmdPushRotationZ.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdPushRotationZ.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CmdPushScaling.cpp
+  CmdPushTranslation.cpp
+  CmdSetCameraDirection.cpp
+  CmdSetCameraFar.cpp
+  CmdSetCameraFov.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdSetCameraFov.cpp(11,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CmdSetCameraNear.cpp
+  CmdSetCameraPosition.cpp
+  CmdSetColor.cpp
+  CmdSetViewPort.cpp
+  CmdVarBool.cpp
+  CmdVarFloat.cpp
+  CmdVarInt.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarInt.cpp(17,34): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarInt.cpp(17,18): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarInt.cpp(18,34): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarInt.cpp(18,18): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarInt.cpp(21,43): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarInt.cpp(21,38): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarInt.cpp(21,31): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CmdVarInt.cpp(21,24): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  CommandDictionary.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(19,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(20,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(21,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(22,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\CommandDictionary.cpp(23,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  PixEditor.cpp
+  VariableCache.cpp
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp(35,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp(36,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp(32,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp(135,46): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp(139,13): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp(168,4): error C2562: 'VariableCache::GetBool': 'void' function returning a value
+  D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp(158,21):
+  see declaration of 'VariableCache::GetBool'
+  
+D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp(172,2): error C2562: 'VariableCache::GetBool': 'void' function returning a value
+  D:\LaSalleProjects\3D graphics and application\VGP240\Pix\Pix\VariableCache.cpp(158,21):
+  see declaration of 'VariableCache::GetBool'
+  
+>>>>>>> Stashed changes

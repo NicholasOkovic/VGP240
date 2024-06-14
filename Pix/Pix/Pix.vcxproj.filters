@@ -207,6 +207,7 @@
     <ClCompile Include="CmdSetShadeMode.cpp">
       <Filter>Commands</Filter>
     </ClCompile>
+<<<<<<< Updated upstream
     <ClCompile Include="Texture.cpp">
       <Filter>Graphics</Filter>
     </ClCompile>
@@ -223,6 +224,12 @@
       <Filter>Commands</Filter>
     </ClCompile>
     <ClCompile Include="CmdSetUseFilter.cpp">
+=======
+    <ClCompile Include="CmdVarBool.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdVarInt.cpp">
+>>>>>>> Stashed changes
       <Filter>Commands</Filter>
     </ClCompile>
   </ItemGroup>
@@ -386,6 +393,7 @@
     <ClInclude Include="CmdSetShadeMode.h">
       <Filter>Commands</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
     <ClInclude Include="Texture.h">
       <Filter>Graphics</Filter>
     </ClInclude>
@@ -402,6 +410,12 @@
       <Filter>Commands</Filter>
     </ClInclude>
     <ClInclude Include="CmdSetUseFilter.h">
+=======
+    <ClInclude Include="CmdVarBool.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdVarInt.h">
+>>>>>>> Stashed changes
       <Filter>Commands</Filter>
     </ClInclude>
   </ItemGroup>
