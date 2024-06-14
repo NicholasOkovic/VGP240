@@ -204,7 +204,9 @@
     <ClCompile Include="CmdSetUseFilter.cpp" />
     <ClCompile Include="CmdSetViewPort.cpp" />
     <ClCompile Include="CmdShowViewPort.cpp" />
+    <ClCompile Include="CmdVarBool.cpp" />
     <ClCompile Include="CmdVarFloat.cpp" />
+    <ClCompile Include="CmdVarInt.cpp" />
     <ClCompile Include="CommandDictionary.cpp" />
     <ClCompile Include="DepthBuffer.cpp" />
     <ClCompile Include="Graphics.cpp" />
@@ -265,7 +267,9 @@
     <ClInclude Include="CmdSetUseFilter.h" />
     <ClInclude Include="CmdSetViewPort.h" />
     <ClInclude Include="CmdShowViewPort.h" />
+    <ClInclude Include="CmdVarBool.h" />
     <ClInclude Include="CmdVarFloat.h" />
+    <ClInclude Include="CmdVarInt.h" />
     <ClInclude Include="Command.h" />
     <ClInclude Include="CommandDictionary.h" />
     <ClInclude Include="DepthBuffer.h" />

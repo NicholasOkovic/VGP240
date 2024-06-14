@@ -3,6 +3,8 @@
 #include "CmdDrawPixel.h"
 #include "CmdSetResolution.h"
 #include "CmdVarFloat.h"
+#include "CmdVarInt.h"
+#include "CmdVarBool.h"
 
 #include "CmdBeginDraw.h"
 #include "CmdEndDraw.h"
@@ -43,6 +45,9 @@
 #include "CmdSetUseFilter.h"
 
 
+
+
+
 CommandDictionary* CommandDictionary::Get()
 {
 	static CommandDictionary sInstance;
@@ -58,6 +63,8 @@ CommandDictionary::CommandDictionary()
 
 	// Variable commands
 	RegisterCommand<CmdVarFloat>();
+	RegisterCommand<CmdVarBool>();
+	RegisterCommand<CmdVarInt>();
 	RegisterCommand<CmdPushRotationX>();
 	RegisterCommand<CmdPushRotationY>();
 	RegisterCommand<CmdPushRotationZ>();
