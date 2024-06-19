@@ -24,7 +24,7 @@ public:
 	float GetInt(const std::string& param);
 
 	void AddBool(const std::string& name, bool value);
-	void GetBool(const std::string& param);
+	bool GetBool(const std::string& param);
 
 
 	void ShowEditor();

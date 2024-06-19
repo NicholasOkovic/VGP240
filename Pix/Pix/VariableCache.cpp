@@ -21,7 +21,7 @@ struct FloatVar : public Variable
 
 	float value = 0.0f;
 	float speed = 1.0f;
-	float min = -FLT_MAX;
+	float min = -FLT_MIN;
 	float max = -FLT_MAX;
 };
 
@@ -32,9 +32,9 @@ struct IntVar : public Variable
 		ImGui::DragInt(name.c_str(), &value, speed, min, max);
 	}
 
-	int value = 0.0f;
-	int speed = 1.0f;
-	int min = -INT32_MAX;
+	int value = 0;
+	int speed = 1;
+	int min = -INT32_MIN;
 	int max = -INT32_MAX;
 };
 
@@ -155,7 +155,7 @@ void VariableCache::AddBool(const std::string& name, bool value)
 	}
 }
 
-void VariableCache::GetBool(const std::string& param)
+bool VariableCache::GetBool(const std::string& param)
 {
 	if (IsVarName(param))
 	{
