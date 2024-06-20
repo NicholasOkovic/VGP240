@@ -178,7 +178,7 @@ bool PrimitiveManager::EndDraw()
 
 				//for (size_t t = 0; t < triangle.size(); t++)
 				//{
-				//	triangle[t].color *= lm->ComputeLightColor(triangle[t].pos, faceNormal);			///idk
+				//	triangle[t].color *= lm->ComputeLightColor(triangle[t].pos, faceNormal);			
 				//}
 
 				//move the positions to ndc space

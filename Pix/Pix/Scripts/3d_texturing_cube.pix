@@ -1,9 +1,9 @@
 SetResolution(500, 500, 1)
 
-SetViewport(50, 50, 400, 400)
+SetViewPort(50, 50, 400, 400)
 SetClipping(true)
 SetCullMode(back)
-ShowViewport(true)
+ShowViewPort(true)
 EnableDepth(true)
 
 float $camX = 0, 0.01
@@ -30,6 +30,7 @@ PushScaling(1, 1, 1)
 //SetTexture(../Images/checker.bmp)
 //SetTexture(../Images/sponge_bob.bmp)
 SetTexture(../Images/crate.bmp)
+SetCorrectUV(true)
 
 BeginDraw(triangle, true)
 
@@ -82,3 +83,4 @@ Vertex(1, -1, -1, 1, 0, -1)
 Vertex(1, -1, 1, 1, 1, -1)
 
 EndDraw()
+

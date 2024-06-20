@@ -18,7 +18,7 @@ float $rotX = 0, 0.1
 float $rotY = 0, 0.1
 float $rotZ = 0, 0.1
 
-bool $correctUV = false
+//bool $correctUV = false
 
 SetCameraPosition($camX, $camY, $camZ)
 SetCameraDirection($camDirX, $camDirY, $camDirZ)
@@ -33,7 +33,7 @@ PushRotationZ($rotZ)
 PushRotationY($rotY)
 PushRotationX($rotX)
 
-SetCorrectUV($correctUV)
+SetCorrectUV(true)
 
 BeginDraw(triangle, true)
 
@@ -45,4 +45,11 @@ Vertex(1, 1, 0, 1, 0, -1)
 Vertex(1, -1, 0, 1, 1, -1)
 
 EndDraw()
+
+
+
+
+
+
+
 

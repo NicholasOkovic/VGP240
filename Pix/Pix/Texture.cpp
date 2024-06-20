@@ -74,7 +74,7 @@ void Texture::Load(const std::string& fileName)
 		return;
 	}
 
-	BitmapFileHeader fileHeader;			///missing header probs
+	BitmapFileHeader fileHeader;			
 	BitmapInfoHeader infoHeader;
 	fread(&fileHeader, sizeof(fileHeader), 1, file);
 	fread(&infoHeader, sizeof(infoHeader), 1, file);
@@ -121,7 +121,7 @@ X::Color Texture::GetPixel(float u, float v, AddressMode mode, bool filter) cons
 	case AddressMode::Clamp:
 	{
 		u = std::clamp(u, 0.0f, 1.0f);
-		u = std::clamp(v, 0.0f, 1.0f);
+		v = std::clamp(v, 0.0f, 1.0f);
 	}
 		break;
 	case AddressMode::Wrap:

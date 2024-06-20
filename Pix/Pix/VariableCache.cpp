@@ -14,20 +14,20 @@ struct Variable
 
 struct FloatVar : public Variable
 {
-	void ShowUI()
+	void ShowUI() override
 	{
 		ImGui::DragFloat(name.c_str(),&value, speed, min, max);
 	}
 
 	float value = 0.0f;
 	float speed = 1.0f;
-	float min = -FLT_MIN;
+	float min = -FLT_MIN; 
 	float max = -FLT_MAX;
 };
 
 struct IntVar : public Variable
 {
-	void ShowUI()
+	void ShowUI() override
 	{
 		ImGui::DragInt(name.c_str(), &value, speed, min, max);
 	}
@@ -40,7 +40,7 @@ struct IntVar : public Variable
 
 struct BoolVar : public Variable
 {
-	void ShowUI()
+	void ShowUI() override
 	{
 		ImGui::Checkbox(name.c_str(), &value);
 	}
@@ -149,6 +149,7 @@ void VariableCache::AddBool(const std::string& name, bool value)
 	if (iter == mVariables.end())
 	{
 		auto boolVar = std::make_unique<BoolVar>();
+		boolVar->name = name;
 		boolVar->value = value;
 
 		mVariables.emplace_back(std::move(boolVar));

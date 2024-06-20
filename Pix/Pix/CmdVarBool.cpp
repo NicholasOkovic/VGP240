@@ -1,8 +1,8 @@
-#include "CmdVarFloat.h"
+#include "CmdVarBool.h"
 
 #include "VariableCache.h"
 
-bool CmdVarFloat::Execute(const std::vector<std::string>& params)
+bool CmdVarBool::Execute(const std::vector<std::string>& params)
 {
 	// Need at leaset 3 params for name, =, value
 	if (params.size() < 3)

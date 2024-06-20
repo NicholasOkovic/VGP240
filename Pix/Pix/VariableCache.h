@@ -17,10 +17,10 @@ public:
 
 	bool IsVarName(const std::string& name) const;
 
-	void AddFloat(const std::string& name, float value, float speed = 0.01f, float min = -FLT_MAX, float max = FLT_MAX);
+	void AddFloat(const std::string& name, float value, float speed = 0.01f, float min = -FLT_MIN, float max = FLT_MAX);
 	float GetFloat(const std::string& param);
 
-	void AddInt(const std::string& name, int value, int speed = 0.01f, int min = -INT32_MAX, int max = INT32_MAX);
+	void AddInt(const std::string& name, int value, int speed = 1, int min = -INT32_MIN, int max = INT32_MAX);
 	float GetInt(const std::string& param);
 
 	void AddBool(const std::string& name, bool value);
